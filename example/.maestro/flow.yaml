@@ -1,0 +1,16 @@
+# flow.yaml
+
+appId: com.example.example
+---
+- launchApp
+- scrollUntilVisible:
+    element:
+      text: ".*16.*"
+    direction: DOWN
+    speed: 1
+
+- scrollUntilVisible:
+    element:
+      text: ".*features.*"
+    direction: UP
+    speed: 1
